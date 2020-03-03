@@ -1,0 +1,64 @@
+body {
+  font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #660066;
+}
+
+.yo-title h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  color: #373A3C;
+}
+
+.yo-text p {
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
+
+.border-b {
+  border-bottom: 1px solid #000;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Oswald';
+}
+
+.navbar-toggler {
+  font-size: 2rem;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #777;
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+height: 507px;
+width: auto;
+position: fixed;
+background-position: center;
+background-size: cover;
+align-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+background-position: center;
+background-size: cover;
+align-content: center;
+  }
+}
