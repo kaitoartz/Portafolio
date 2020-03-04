@@ -131,3 +131,16 @@ main {
 .card {
   border: 0;
 }
+/* Cierre modificacion main */
+/* Inicio modificacion contacto */
+.text-contact {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
+
+#contact {
+  height: 523px;
+  width: 100%;
+}
+/* Cierre modificacon contacto */
