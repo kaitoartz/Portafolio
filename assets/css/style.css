@@ -1,7 +1,7 @@
 body {
-  font-family: 'Oswald', 'Open Sans', sans-serif;
+  font-family: 'Oswald', 'Open Sans', sans-serif; /* Estilo para las fuentes */
 }
-
+/* Inicio modificacion de imagen y navbar */
 .hero-img {
   height: 100%;
   width: 100%;
@@ -19,7 +19,7 @@ body {
 }
 
 .yo-text p {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 400;
   font-family: 'Open Sans';
 }
@@ -46,9 +46,8 @@ body {
 
 @media (max-width: 576px) {
   .hero-img {
-height: 507px;
+height: 507px;                        /* Aqui intentando hacer responsiva la imagen */
 width: auto;
-position: fixed;
 background-position: center;
 background-size: cover;
 align-content: center;
@@ -61,4 +60,56 @@ background-position: center;
 background-size: cover;
 align-content: center;
   }
+}
+/* Cierre modificacion imagen y navbar */
+/* Inicio modificacion carousel */
+.carousel-indicators .active {
+  opacity: 1;
+  background: black;
+}
+
+.carousel-item {
+  padding-bottom: 2.5rem;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+  border-radius: 10px;
+  display: inline-block;
+  text-indent: -999px;
+  border: 1px solid #fff;
+  background-color: #ccc;
+  border-color: #999;
+}
+
+.work {
+  color: #660066;
+}
+
+.carousel-item h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Oswald';
+}
+
+.carousel-item h6 {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Open Sans';
+}
+
+@media (max-width: 576px) {
+  .display-4{
+    font-size: 2rem;
+  }
+}
+/* Cierre modificacion carousel */
+main {
+  background-color: #660066;
 }

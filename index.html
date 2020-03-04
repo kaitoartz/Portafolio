@@ -66,11 +66,11 @@
 
   <!-- Inicio section texto -->
     <section>
-      <div class="container text-center yo-title pt-5">
+      <div class="container text-center yo-title pt-5 px-5 d-none d-sm-block d-sm-none d-md-block">
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante</h3>
         <h3>nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
         <p class="border-b mb-5 mt-4"></p>
-        <div class="row text-left yo-text">
+        <div class="row text-left yo-text pb-2">
           <div class="col-6">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec</p><p>mattis ante nulla. Donec in neque consectetur, ultrices justo</p><p>eu, hendrerit lectus. Nullam fermentum turpis et dolor</p><p>euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed</p><p>mollis condimentum rhoncus. Proin sed diam eu risus auctor</p><p>aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut</p><p>diam. Nunc cursus lacus ex, id interdum nibh tristique ac.</p><p>Maecenas in mi blandit, euismod ipsum eu, lobortis nisi.</p><p>Interdum et malesuada fames ac ante ipsum primis in</p><p>faucibus. Mauris ultricies sem eu massa pellentesque, id</p><p>interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
           </div>
@@ -81,6 +81,169 @@
       </div>
     </section>
   <!-- Cierre section texto -->
+
+  <section>
+    <div class="container text-center pt-5">
+      <h1 class="font-weight-bold display-4">MI EXPERIENCIA</h1>
+      <p class="border-b mb-4 mt-3"></p>
+          <div class="row">
+            <!-- Se crea un container con row y columnas para que se divida el texto con el carousel -->
+            <div class="col-12 rounded">
+              <div id="blogCarousel" class="carousel slide" data-ride="carousel"> <!-- Con esto se genera el carousel -->
+                <!-- Con esta lista ordenada se crea los botontes de seccion -->
+                <ol class="carousel-indicators">
+                  <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#blogCarousel" data-slide-to="1"</li>
+                </ol>
+                <!-- Aqui se inica el contenedor de contenido dentro del carousel -->
+                <div class="carousel-inner text-center">
+
+                  <!-- Se hace un row y un text-center para que el contenido quede centrado y divido correctamente -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-6 pb-4">
+                        <i class="fas fa-tools fa-7x pb-3 work"></i>
+                        <h5>Informatica</h5>
+                        <h6>2016-2019</h6>
+                      </div>
+                      <div class="col-md-6 pb-4">
+                        <i class="fas fa-store fa-7x pb-3 work"></i>
+                        <h5>Vendedor/Cajero tienda TOUCH</h5>
+                        <h6>2019-2020</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Este carousel no tiene la clase active porque es la segunda seccion -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-12 pb-4">
+                        <i class="fab fa-html5 fa-7x pb-3 work"></i>
+                        <h5>WEB Developer</h5>
+                        <h6>2020-2021</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <main>
+    <div class="container pt-5">
+      <h1 class="font-weight-bold my-5 py-5 display-4 text-center text-muted">Nuestros Productos</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-5 mx-4">
+            <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="colaciones">
+            <div class="card-body">
+              <h5 class="card-title">Colaciones</h5>
+              <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-5 mx-4">
+            <img src="assets/img/iguana_page.png" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Desayunos</h5>
+              <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-5 mx-4">
+            <img src="assets/img/suricata.png" class="card-img-top img-fluid" alt="bebidas">
+            <div class="card-body">
+              <h5 class="card-title">Bebidas</h5>
+              <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-5 mx-4 mt-3">
+            <img src="assets/img/cuppon.png" class="card-img-top img-fluid" alt="verduras">
+            <div class="card-body">
+              <h5 class="card-title">Verduras</h5>
+              <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-5 mx-4 mt-3">
+            <img src="assets/img/ricomida.png" class="card-img-top img-fluid" alt="dulces">
+            <div class="card-body">
+              <h5 class="card-title">Dulces</h5>
+              <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5 pb-5">
+          <div class="card mb-5 mx-4 mt-3">
+            <img src="assets/img/dmark.png" class="card-img-top img-fluid" alt="empanadas">
+            <div class="card-body">
+              <h5 class="card-title">Empanadas</h5>
+              <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
   <!--jQuery 3.4.1 sin slim-->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
