@@ -2,13 +2,17 @@ body {
   font-family: 'Oswald', 'Open Sans', sans-serif; /* Estilo para las fuentes */
 }
 /* Inicio modificacion de imagen y navbar */
-.hero-img {
-  height: 100%;
-  width: 100%;
-}
 
 .navbar {
   background-color: #660066;
+}
+
+hr {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #fff;
+  background-color: #fff;
+  border: 0.8px solid #fff;
 }
 
 .yo-title h3 {
@@ -44,22 +48,9 @@ body {
   border-color: #777;
 }
 
-@media (max-width: 576px) {
-  .hero-img {
-height: 507px;                        /* Aqui intentando hacer responsiva la imagen */
-width: auto;
-background-position: center;
-background-size: cover;
-align-content: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero {
-background-position: center;
-background-size: cover;
-align-content: center;
-  }
+.nav-link {
+  font-weight: 400;
+  font-family: 'Open Sans';
 }
 /* Cierre modificacion imagen y navbar */
 /* Inicio modificacion carousel */
@@ -117,6 +108,14 @@ main {
   margin-left: 45%;
 }
 
+@media (max-width: 576px) {
+  .border-blank {
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
 .card-title {
   font-family: 'Oswald';
   font-weight: 400;
@@ -149,7 +148,95 @@ main {
   background-color: #660066;
 }
 
+a {
+  text-decoration: none;
+  outline: none;
+}
+      a:hover, a:visited, a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
 .icon {
   color: #fff;
 }
 /* Cierre modificacion footer */
+
+.hero-header{
+  width: 100%;
+  height: 700px;
+  display: block;
+  position: relative;
+}
+
+.hero-header img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.presentacion{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  max-width: 30%
+}
+
+#light {
+  font-size: 4rem;
+  font-weight: 200;
+  font-family: 'Oswald';
+}
+
+#bold {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: 'Oswald';
+}
+
+@media (max-width: 576px) {
+  .presentacion {
+    position: absolute;
+    display: block;
+    max-width: 80%;
+    bottom: -80px;
+  }
+
+  .hero-header{
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+  }
+
+  .hero-header img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  #light {
+    font-size: 2.25rem;
+    font-weight: 200;
+    font-family: 'Oswald';
+  }
+
+  #bold {
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: 'Oswald';
+  }
+}
